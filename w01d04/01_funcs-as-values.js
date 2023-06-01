@@ -43,7 +43,13 @@ console.log(funcs);
 
 funcs[0]('dean');
 
+// for (let i = 0; i < funcs.length; i++) {
+//   funcs[i]();
+// }
+
+// for (const func of funcs) {
+//   func();
+// }
+
 // const myFunc = funcs[0];
 // myFunc('dean');
-
-

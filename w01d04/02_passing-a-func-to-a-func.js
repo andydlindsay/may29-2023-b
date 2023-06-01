@@ -1,11 +1,6 @@
-const runMyFunc = function(whatever) {
-  const myFunc = arr[0];
-  console.log(arr[0]); // console.log
-  whatever('elise'); // console.log('elise')
-
-  const newFunc = function() {};
-
-  return newFunc;
+const runMyFunc = function(callback) {
+  console.log(callback); // console.log
+  callback('elise'); // console.log('elise')
 };
 
 const sayHello = function(name) {

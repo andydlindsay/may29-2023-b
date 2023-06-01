@@ -19,4 +19,3 @@ runMyFunc(sayHello);
 runMyFunc(function(name) {
   console.log(`hello there ${name}`);
 });
-

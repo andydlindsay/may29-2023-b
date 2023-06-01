@@ -28,9 +28,7 @@ const toDoOnEachLoop = function(name) {
 };
 
 const ogMap = names.map(toDoOnEachLoop);
-
 console.log('ogMap', ogMap);
 
 const ourOutput = ourMap(names, toDoOnEachLoop);
-
 console.log('ourMap', ourOutput);
