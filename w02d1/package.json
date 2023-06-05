@@ -1,0 +1,19 @@
+{
+  "name": "tdd-lhl",
+  "version": "1.0.0",
+  "description": "Test Driven Development, Lighthouse Labs Style",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "TDD",
+    "LHL"
+  ],
+  "author": "Nally",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
