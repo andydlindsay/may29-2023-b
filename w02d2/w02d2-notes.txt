@@ -1,0 +1,68 @@
+
+# Review of how functions are defined
+
+## compare syntax for referencing a function and calling a function
+
+1. you must pass a callback as a reference, not calling it
+1. creating an anonymous function in place means that a reference to it will be passed
+1. you can use the --->  () => statement(hardcodedvalue)  <--- syntax as a way to create a reference to an anonymous function that passes values to some other function.
+1. "callbacks are easy just send a reference... ah shit i need some parameters" ---> solution: create an anonmymous function (using arrow syntax with implied return, or you could use traditional syntax)
+1. try catch throwing errors
+
+# why do we want to use callbacks?
+
+1. same reason we write other functions. we don't want to repeat ourselves. cb lets us break a problem down into further smaller pieces.
+1. with normal functions we include parameters with string or numerical values because we don't know what the value is when we're writing it.
+1. with CallBacks we can take this a step further: at the time of writing the code, we don't even know the PROCESSING that we would do.
+1. BUT HERE IS A NEW SPECIAL REASON: we can use callbacks IF an asynchronous function call (a function we spawn from the MAIN THREAD) will block, and we need a subsequent action to happen.
+
+# what is asyncronicity?
+
+1. when you have multiple things you want to do but you don't want to wait around while the first parts are happening.
+1. synchronous means 'at the same time', 'top to bottom', 
+1. two conversations at once
+
+# Events
+
+## setTimeout
+
+as soon as you set any length of time for a setTimeout, it goes on the backburner, even 0 or 1 milliseconds.
+slowSort by settings a timeout foreach number in an array
+there's a distinction between "the main thread" and "the back burner"
+what happens if your timeout times are identical? then the one that was called first finishes first
+
+## setTimeout
+
+setInterval is another asynchronous function // 
+you could clearInterval even before the thing has had a chance to run once.
+so try setTimeout to delay the clearInterval
+
+
+A setTimeout "Hello, World".
+
+setTimeout(() => alert("World"));
+alert("Hello");
+
+
+# fs (file system) (node has access to the filesystem, JS in the browser does not)
+
+fs.readFile(path, callback(err, data));
+
+"Do you think that fs.readFile is synchronous or asynchronous?"
+readFile runs on the main thread, the callback runs on the 'back burner'
+
+
+Note: Callbacks that you call yourself are always synchronous.
+
+# nesting
+
+nesting is how you ensure the order of asynchronous things. nesting is used when there is a dependency.
+
+
+
+# Event Emitter
+
+## example of a series of events in a conversation
+## you can avoid nesting by chaining emitted events
+
+# Spoiler Alert! Tomorrow is about Networking and reading the networking is always asynchronous

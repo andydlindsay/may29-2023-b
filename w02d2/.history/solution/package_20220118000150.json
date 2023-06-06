@@ -1,0 +1,17 @@
+{
+  "name": "sample-robot",
+  "version": "1.0.0",
+  "description": "a demonstration of scheduling messages to be sent to the Event Loop",
+  "main": "sample-robot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LighthouseLabs"
+  ],
+  "author": "Christian Nally",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0"
+  }
+}
