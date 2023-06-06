@@ -4,12 +4,12 @@
 - [x] Manual testing
 - [x] Bringing in outside code
 - [x] Making assertions
-- [x] Exporting our code
 - [x] Intro to NPM: a Node package manager
+- [x] Exporting our code
 - [x] Mocha test runner
 - [x] Ignoring files/folders
 - [x] What is TDD?
-- [x] Chai assertion library
+- [] Chai assertion library
 
 ### `module.exports` and `require`
 - We can export functions, objects, etc from a file using the `module.exports` object

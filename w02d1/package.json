@@ -1,14 +1,16 @@
 {
-  "name": "tdd-lhl",
+  "name": "w02d1-testing",
   "version": "1.0.0",
-  "description": "Test Driven Development, Lighthouse Labs Style",
+  "description": "LHL Testing with Mocha and Chai",
   "main": "hello-world.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "TDD",
-    "LHL"
+    "LHL",
+    "Mocha",
+    "Chai",
+    "MonkeyFuzz"
   ],
   "author": "Nally",
   "license": "ISC",

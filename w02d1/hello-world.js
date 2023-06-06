@@ -1,15 +1,15 @@
-// implement a function called sayHello that takes the name of the saluted and returns what would be said.
-const sayHello = (name) => {
-  return `Hello, ${name}`;
+const sayHello = (who) => {
+  const returnValue = `Hello, ${who}!`;
+  return returnValue;
 };
 
-const sayGoodbye = (name) => {
-  return `Goodbye, ${name}`;
+const sayGoodbye = (who) => {
+  const returnValue = `Goodbye, ${who}!`;
+  return returnValue;
 };
 
-console.log('Very fuzzy!!');
+// console.log(sayHello('MonkeyFuzz'));
 
-// make the functions exportable
 module.exports = {
   sayHello: sayHello,
   sayGoodbye: sayGoodbye
