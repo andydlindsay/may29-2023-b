@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protected Page</title>
+</head>
+<body>
+  <h1>This is a protected page!</h1>
+  <h2>You are logged in as: <%= user.username %></h2>
+
+  <form method="POST" action="/logout">
+    <button type="submit">Logout</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "w03d03",
+  "version": "1.0.0",
+  "description": "### To Do - [ ] HTTP and cookies - [ ] Login user with username and password - [ ] Protect endpoints against non-logged in users - [ ] Clearing a cookie (aka user logout) - [ ] Register user with username and password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
