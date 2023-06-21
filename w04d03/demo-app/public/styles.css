@@ -1,0 +1,26 @@
+.food-item {
+  border: 2px solid aquamarine;
+  border-radius: 15px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.food-item-header {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+  color: yellowgreen;
+}
+
+.description {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.food-item-footer {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+}
