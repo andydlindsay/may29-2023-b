@@ -5,28 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 <style>
+
+* {
+  box-sizing: border-box;
+  border: 2px solid red;
+}
+
 html {
-  border: 5px dashed red;
-  height: 80vh;
-  width: 100%;
+  /* border: 5px dashed red; */
+  /* height: 80vh; */
+  /* width: 100%; */
 }
 
 .container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  background-color: grey;
-  height: 70vh;
+  align-items: center;
+  /* background-color: grey; */
+  /* height: 70vh; */
 }
 
 .smiley {
   display: flex;
   align-items: center;
   font-size: 4rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .smiley-1 {
-  align-self: flex-start;
+  /* align-self: flex-start; */
+  height: 70px;
+}
+.smiley-2 {
+  /* align-self: flex-start; */
+  height: 170px;
+}
+.smiley-3 {
+  /* align-self: flex-start; */
+  order: -1;
+  height: 270px;
 }
 </style>
 </head>

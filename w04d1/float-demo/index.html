@@ -5,18 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 <style>
-html {
+
+* {
+  /* border: 1px solid red; */
+}
+
+main {
   border: 5px dashed red;
+  background-color: grey;
 }
 
 .container {
-  background-color: grey;  
+  /* background-color: grey;   */
 }
 
 .smiley {
   font-size: 4rem;
   border: 1px dashed black;
-  width: 65px;
+  width: 165px;
 /*   width: 100%; */
   float: left;
 }
@@ -25,11 +31,18 @@ html {
   float: right;
 }
 
+.smiley-3 {
+  float: left;
+}
+
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
+
+
 </style>
 </head>
 <body>

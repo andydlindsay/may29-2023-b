@@ -1,17 +1,59 @@
 # Tweeter Demo
 
-[] TinyApp was a multi-page app. Tweeter will be a 'Single Page App'.
-[] HTML/CSS/jQuery over an Express back-end
-[] Real-time Character Limit
-[] Ajax Calls to avoid page reloads
+[x] TinyApp was a multi-page app. Tweeter will be a 'Single Page App'.
+[x] HTML/CSS/jQuery over an Express back-end
+[x] Real-time Character Limit
+[x] Ajax Calls to avoid page reloads
 
 # Semantic HTML
 
-<header></header>
+
+<div></div>
+<span></span>
+
+
+<p>The quick brown fox jumped over the lazy dog's back. The quick brown fox jumped over the lazy dog's back. The quick brown fox jumped over the lazy dog's back. The <span>quick brown fox</span> jumped over the lazy dog's back. The quick brown fox jumped over the lazy dog's back. The quick brown fox jumped over the lazy dog's back. The quick brown fox jumped over the lazy dog's back. The quick brown fox jumped over the lazy dog's back. The quick brown fox jumped over the lazy dog's back. The quick brown fox jumped over the lazy dog's back.</p>
+
+
+<a href="http://example.com"></a>
+
+
+
+
+<head>
+<style>
+
+nav {
+  width: 150px;
+  height: 600px;
+  border: 1px solid black;
+}
+
+</style>
+</head>
+<header>
+  <nav>
+    <ul>
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Contact Us</li>
+    </ul>
+  </nav>
+</header>
+
 <main>
   <article></article>
 </main>
 <footer></footer>
+
+
+
+
+
+
+
+
+
 
 # Box Model
 
