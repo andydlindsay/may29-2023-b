@@ -4,3 +4,4 @@
 * [BREAKOUT - Mock Exam Review](/breakout-w1-exam)
 * [W03D03 - HTTP Cookies & User Authentication](/w03d03)
 * [W04D03 - AJAX](/w04d03)
+* [W05D03 - SQL from our Apps](/w05d03)
