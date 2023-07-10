@@ -7,3 +7,4 @@
 * [W05D03 - SQL from our Apps](/w05d03)
 * [W05D05 - Mid-term Project Kickoff](/w05d05)
 * [BREAKOUT - Express Router](/breakout-express-router)
+* [W07D01 - JSX and Props](/w07d01)
