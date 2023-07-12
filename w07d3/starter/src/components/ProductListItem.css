@@ -1,0 +1,10 @@
+.productListItem {
+  border: 1px solid black;
+  background-color: peachpuff;
+  padding: 10px;
+}
+
+.productListItem header {
+  display: flex;
+  justify-content: space-evenly;
+}
