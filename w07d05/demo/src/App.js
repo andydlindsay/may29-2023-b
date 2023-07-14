@@ -28,7 +28,6 @@ const initialState = {
 // is to update state AND return it
 const reducer = (state, action) => {
   // action => { type: string; data: anything; }
-
   if (action.type === 'REMOVE_TODO') {
     const todoId = action.data;
     const filteredTodos = state.completedTodos.filter((id) => id !== todoId);
@@ -36,7 +35,9 @@ const reducer = (state, action) => {
       ...state,
       completedTodos: filteredTodos
     }
-  } else if (action.type === 'ADD_TODO') {
+  }
+  
+  if (action.type === 'ADD_TODO') {
     const todoId = action.data;
     const copyCompletedTodos = [
       ...state.completedTodos,
@@ -60,7 +61,7 @@ const App = () => {
 
     // is this todoId already in the array?
     if (state.completedTodos.includes(todoId)) {
-      dispatch({ type: 'REMOVE_TODO', data: todoId });
+      return dispatch({ type: 'REMOVE_TODO', data: todoId });
     }
 
     // if it isn't, add it
