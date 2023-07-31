@@ -1,0 +1,9 @@
+<h1>All the players for <%= @team.name %>!</h1>
+
+<%= link_to "Visit the teams", teams_path %>
+
+<!-- <% @players.each do |player| %>
+  <%= render 'player', player: player %>
+<% end %> -->
+
+<%= render @players %>

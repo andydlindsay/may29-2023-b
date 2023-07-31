@@ -1,0 +1,9 @@
+<h1>All the teams!</h1>
+
+<% @teams.each do |team| %>
+  <div class="team">
+    <h2>Team Name: <%= team.name %></h2>
+    <h2>Team Coach: <%= team.coach %></h2>
+    <%= link_to "Players", team_players_path(team.id) %>
+  </div>
+<% end %>
