@@ -1,0 +1,12 @@
+// Place all the styles related to the teams controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$border-color: pink;
+
+.team {
+  border: 2px solid $border-color;
+  border-radius: 15px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
